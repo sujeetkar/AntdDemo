@@ -1,0 +1,31 @@
+.header_section {
+    justify-content: space-between;
+    width: 97%;
+
+    &_left {
+        width: 50%;
+
+        &_logo {
+            align-items: center;
+            cursor: pointer;
+            display: flex;
+        }
+    }
+
+    &_right {
+        align-items: center;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &_sec {
+        gap: 20px;
+        width: 90%;
+    }
+
+    &_icon {
+        align-items: center;
+        display: flex;
+        font-size: 20px;
+    }
+}

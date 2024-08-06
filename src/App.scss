@@ -1,0 +1,95 @@
+.App {
+  font-family: Jost, sans-serif;
+  height: calc(100vh - 12vh);
+}
+
+.demo-logo {
+  color: #67809a;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.ant-layout {
+  height: 100vh;
+  background: #f0f6fc;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.ant-layout-sider {
+  position: relative;
+  // min-width: 280px !important;
+  background: #001529;
+}
+
+.ant-layout-sider-children {
+  height: 100%;
+  margin-top: -0.1px;
+  padding-top: 0.1px;
+  border-radius: 0 20px 0 0;
+}
+
+.ant-menu-horizontal.ant-menu-dark {
+  justify-content: flex-end;
+}
+
+
+.ant-layout-header {
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.ant-menu-dark.ant-menu-horizontal {
+  background-color: #fff;
+}
+
+.ant-layout-content {
+  padding: 0 20px !important;
+}
+
+.ant-btn {
+  align-items: center;
+  background-color: #67809a;
+  border: none;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.learner {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.learner-container {
+  margin: 0;
+  width: 50%;
+}
+
+.ant-row {
+  margin-left: -8px;
+  margin-right: -8px;
+  row-gap: 16px;
+}
+
+.ant-col-8 {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.ant-input-affix-wrapper {
+  background-color: #f5faff;
+  border-color: #67809a;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px;
+  width: 100%;
+}
+
+.ant-form-item .ant-form-item-label {
+  color: #67809a;
+  font-size: 20px;
+  font-weight: 600;
+}
